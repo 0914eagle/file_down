@@ -1,0 +1,14 @@
+
+def construct_graph(L):
+    N = 2 * L
+    M = 2 * L + 2
+    print(N, M)
+    
+    for i in range(1, L):
+        print(i, i + 1, 0)
+        print(i, i + L, i - 1)
+    
+    print(L, L + 1, 0)
+    print(L, 2 * L, L - 1)
+    
+construct_graph(4)
