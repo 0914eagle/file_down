@@ -1,0 +1,2 @@
+
+    return number - int(number)
