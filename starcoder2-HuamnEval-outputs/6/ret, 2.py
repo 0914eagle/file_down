@@ -1,3 +1,0 @@
-
-    return number - int(number)
- 
